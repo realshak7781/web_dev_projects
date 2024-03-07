@@ -1,3 +1,5 @@
+Put the index.ejs and solution.ejs inside the views folder;
+
 Open git bash
 Run npm i to install node modules
 then
