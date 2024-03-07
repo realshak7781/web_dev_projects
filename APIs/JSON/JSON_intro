@@ -1,0 +1,19 @@
+JSON: JAVASCRIPT OBJECT NOTATION
+
+JSON IS A STRING BASICALLY
+
+TO EFFIECIENTLY VIEW JSON:
+Sometimes json is all mixed up and to view it Efficiently:
+VISIT :jsonviewer.stack.hu
+
+
+serialisation:
+JS OBJECT --> JSON
+
+
+converting object to JSON:
+const jsonData= JSON.stringify(js_object)
+
+
+CONVERTING JSON TO JS OBJECT:
+const data= JSON.parse(jsonData)
