@@ -18,3 +18,78 @@ body {
     width: 70%;
     border: 2px solid #000000; /* Black border */
   }
+
+  .logos img {
+   height: 52px;
+   width: 52px;
+   border-radius: 20%;
+  } 
+  .img{
+   padding: 5px;
+  }
+
+  .tweet {
+    width: 100%;
+    max-width: 500px; /* Adjust width as needed */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  
+  .tweet textarea {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between textarea and button */
+    border: 2px solid #000000; /* Black border */
+    border-radius: 5px;
+    resize: none; /* Disable vertical resizing */
+  }
+  
+  .tweet button {
+    align-self: flex-end; /* Align button to the right */
+    padding: 10px 20px;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tweet button:hover {
+    background-color: #222222; /* Darker black on hover */
+  }
+  
+
+  /* CSS for small screens (e.g., smartphones) */
+@media only screen and (max-width: 600px) {
+  .logos {
+    width: 90%; /* Reduce width for small screens */
+    margin: 0 auto; /* Center the logos div */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center the content */
+  }
+
+  .logos img {
+    height: auto; /* Auto adjust image height */
+    width: 50%; /* Adjust image width */
+  }
+
+  .tweet {
+    width: 90%; /* Reduce width for small screens */
+    margin: 20px auto; /* Center the tweet div */
+    padding: 10px; /* Add padding for spacing */
+  }
+
+  .tweet textarea {
+    width: 100%; /* Set textarea width to 100% */
+    height: 100px; /* Adjust textarea height */
+    resize: none; /* Disable textarea resizing */
+  }
+
+  .tweet button {
+    width: 100%; /* Set button width to 100% */
+    margin-top: 10px; /* Add margin for spacing */
+  }
+}
