@@ -1,0 +1,20 @@
+body {
+    background-color:#03031f;
+    color: #ffffff;
+   }
+
+   *{
+    font-family: Arial, sans-serif;
+   }
+   
+  .logos{
+    background-color: #cccc00;
+    height: 4rem;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    width: 70%;
+    border: 2px solid #000000; /* Black border */
+  }
